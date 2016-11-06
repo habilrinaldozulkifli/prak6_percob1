@@ -26,6 +26,6 @@ ISR(TIMER_OVF_vect) {
 
 void loop() {
   Serial.print("Overflow count = ");
-  Serial.println(overflowCount, HEX);
-  delay(500);
+  Serial.println(overflowCount, DEC);
+  delay(100);
 }
